@@ -1,0 +1,28 @@
+package cn.hsx.proxy1;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class TimeHandler implements InvocationHandler {
+
+	@Override
+	public void invoke(Object object, Method method) {
+		long start = System.currentTimeMillis();
+		try {
+			method.invoke(object, new Object[]{});
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		long end =  System.currentTimeMillis();
+		System.out.println("move time " + (end - start));
+		
+	}
+	
+}

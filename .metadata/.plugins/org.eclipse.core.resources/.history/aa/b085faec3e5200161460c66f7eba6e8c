@@ -1,0 +1,23 @@
+package cn.hsx.command;
+
+public class MM {
+	
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void order(Boy boy) {
+		Command command1 = new ShoppingCommand();
+		boy.addCommand(command1);
+		Command command2 = new HugCommand();
+		boy.addCommand(command2);
+		boy.ex
+	}
+	
+}

@@ -1,0 +1,12 @@
+package cn.hsx.filter;
+
+public class SensitiveFilter implements Filter {
+
+	@Override
+	public String doFilter(String msg) {
+		
+		String s = s.replace("被就业", "就业").replace("没感觉", "有感觉").replace("敏感", "");
+		return null;
+	}
+
+}

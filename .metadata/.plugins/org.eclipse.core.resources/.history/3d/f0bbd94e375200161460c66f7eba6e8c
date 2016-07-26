@@ -1,0 +1,11 @@
+package cn.hsx.bridge;
+
+public class MM {
+	
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+}

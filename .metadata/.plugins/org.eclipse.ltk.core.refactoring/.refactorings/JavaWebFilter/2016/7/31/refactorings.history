@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.hsx.filter.web.SentitiveeFilter&apos; to &apos;SentitiveFilter&apos;&#x0D;&#x0A;- Original project: &apos;JavaWebFilter&apos;&#x0D;&#x0A;- Original element: &apos;cn.hsx.filter.web.SentitiveeFilter&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.hsx.filter.web.SentitiveFilter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SentitiveeFilter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.hsx.filter.web{SentitiveeFilter.java[SentitiveeFilter" matchStrategy="1" name="SentitiveFilter" qualified="false" references="true" similarDeclarations="false" stamp="1469495621327" textual="false" version="1.0"/>
+</session>

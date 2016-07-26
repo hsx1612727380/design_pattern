@@ -1,0 +1,12 @@
+package cn.hsx.filter.web;
+
+import cn.hsx.filter.web.Filter;
+
+public class HTMLFilter implements Filter {
+
+	@Override
+	public void doFilter(Request request, Response response) {
+		request.requestStr = request.requestStr.replace("<", "[").replace(">", "]");
+	}
+
+}

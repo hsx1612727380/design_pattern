@@ -1,0 +1,12 @@
+package cn.hsx.filter;
+
+public class HTMLFilter implements Filter {
+
+	@Override
+	public String doFilter() {
+		
+		
+		return null;
+	}
+
+}

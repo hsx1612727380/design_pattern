@@ -1,0 +1,16 @@
+package cn.hsx.proxy1;
+
+import java.lang.reflect.Method;
+
+public class TimeHandler implements InvocationHandler {
+
+	@Override
+	public void invoke(Method method) {
+		t + t + "long start = System.currentTimeMillis();" + rt +
+		t + t + "tank."+ method.getName() +"();" +
+		t + t + "long end =  System.currentTimeMillis(); " + rt +
+		t + t + "System.out.println(\"move time \" + (end - start));" + rt +
+		
+	}
+	
+}

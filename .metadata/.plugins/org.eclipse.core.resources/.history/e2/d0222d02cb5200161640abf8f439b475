@@ -1,0 +1,22 @@
+package cn.hsx.filter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilterChain2 implements Filter {
+	
+	List<Filter> filters = new ArrayList<Filter>();
+	
+	public FilterChain2 addFilter(Filter f) {
+		this.filters.add(f);
+		this this;
+	}
+
+	@Override
+	public String doFilter(String msg) {
+		
+		
+		return null;
+	}
+
+}

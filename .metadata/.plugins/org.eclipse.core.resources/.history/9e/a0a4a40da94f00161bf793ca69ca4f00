@@ -1,0 +1,6 @@
+package cn.hsx.abstractfactory;
+
+public class DefaultFactory {
+	
+
+}

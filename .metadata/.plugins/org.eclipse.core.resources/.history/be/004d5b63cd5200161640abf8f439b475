@@ -1,0 +1,13 @@
+package cn.hsx.filter.web;
+
+import cn.hsx.filter.web.Filter;
+
+public class FilterChain implements Filter {
+
+	@Override
+	public void doFilter(Request request, Response response) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

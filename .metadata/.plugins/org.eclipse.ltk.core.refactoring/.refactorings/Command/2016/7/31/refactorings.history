@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.hsx.command.Shopping&apos; to &apos;ShoppingCommand&apos;&#x0D;&#x0A;- Original project: &apos;Command&apos;&#x0D;&#x0A;- Original element: &apos;cn.hsx.command.Shopping&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.hsx.command.ShoppingCommand&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Shopping&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.hsx.command{Shopping.java[Shopping" matchStrategy="1" name="ShoppingCommand" qualified="false" references="true" similarDeclarations="false" stamp="1469433642827" textual="false" version="1.0"/>
+</session>

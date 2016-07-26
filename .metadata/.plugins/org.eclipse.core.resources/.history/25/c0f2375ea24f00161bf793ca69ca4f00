@@ -1,0 +1,64 @@
+package cn.hsx.factory;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Car {
+	
+	private static final Car car = new Car();
+	private static final List<Car> carList = new ArrayList<Car>();
+	
+	private Car() {
+		
+	}
+	
+	public static Car getInstance() {
+		return car;
+	}
+	
+	public void run() {
+		System.out.println("冒着烟奔跑中car.............");
+	}
+	
+}
+
+class Singleton {
+	
+	private static Singleton singleton = null;
+	
+	private Singleton() {
+		
+	}
+	
+	public static Singleton getInstance() {
+		if (singleton == null) {
+			synchronized (Singleton.class) {
+				if (singleton == null) {
+					singleton = new Singleton();
+				}
+			}
+		}
+		return singleton;
+	}
+	
+	public void doSomething() {
+		
+	}
+	
+}
+
+class Singleton2 {
+	
+	private static final Singleton2 singleton2 = new Singleton2();
+	
+	private Singleton2() {
+		
+	}
+	
+	public static Singleton2 getInstance() {
+		return singleton2;
+	}
+	
+	
+}
+

@@ -1,0 +1,16 @@
+package cn.hsx.strategy;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int[] a = {9, 5, 7, 1, 3};
+		DataSort.sort(a);
+		DataSort.p(a);
+		
+		Cat[] cats = {new Cat(), new Cat()};
+		DataSort.sortCat(cats);
+		DataSort.pCat()
+		
+	}
+	
+}

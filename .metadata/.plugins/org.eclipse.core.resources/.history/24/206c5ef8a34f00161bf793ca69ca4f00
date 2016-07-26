@@ -1,0 +1,9 @@
+package cn.hsx.factory;
+
+public class PlaneFactory {
+	
+	public Plane createPlane() {
+		
+	}
+
+}

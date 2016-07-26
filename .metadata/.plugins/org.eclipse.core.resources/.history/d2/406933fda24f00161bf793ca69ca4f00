@@ -1,0 +1,8 @@
+package cn.hsx.factory;
+
+public interface Moveable {
+
+	void
+	
+	
+}

@@ -1,0 +1,7 @@
+package cn.hsx.bridge;
+
+import java.io.File;
+
+public class Flower extends Gift {
+
+}

@@ -1,0 +1,15 @@
+package cn.hsx.iterator;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		ArrayList arrayList = new ArrayList();
+		arrayList.add("hello");
+		arrayList.add("三儿");
+		
+		
+		
+	}
+
+}

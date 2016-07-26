@@ -1,0 +1,8 @@
+package cn.hsx.iterator;
+
+public class Iterator {
+
+	Object next();
+	
+	
+}

@@ -1,0 +1,28 @@
+package cn.hsx.command;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Boy {
+
+	private String name;
+	private List<Command> commandList = new ArrayList<Command>();
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+
+	public void pursue(MM mm) {
+		
+	}
+	
+	public void doSomething() {
+		
+	}
+}

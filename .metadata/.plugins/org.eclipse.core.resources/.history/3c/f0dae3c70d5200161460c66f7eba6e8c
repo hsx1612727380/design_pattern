@@ -1,0 +1,16 @@
+package cn.com.proxy;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		
+		//Moveable moveable = new TankTimeProxy(new TankLogProxy(new Tank()));
+		//Moveable moveable = new TankLogProxy(new TankLogProxy(new Tank()));
+		//Moveable moveable = new TankLogProxy(new TankTimeProxy(new Tank()));
+		Moveable moveable = new TankTimeProxy(new Tank());
+		moveable.move();
+		
+		
+	}
+
+}

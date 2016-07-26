@@ -1,0 +1,13 @@
+package cn.hsx.strategy;
+
+public class DataSort {
+	
+	public static int[] sort() {
+		
+		
+		
+		return null;
+	}
+	
+
+}

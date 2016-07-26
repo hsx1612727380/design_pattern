@@ -1,0 +1,14 @@
+package cn.hsx.factory;
+
+public class PlaneFactory extends VehicleFactory {
+	
+	public Plane createPlane() {
+		return new Plane();
+	}
+
+	@Override
+	Moveable create() {
+		return null;
+	}
+
+}

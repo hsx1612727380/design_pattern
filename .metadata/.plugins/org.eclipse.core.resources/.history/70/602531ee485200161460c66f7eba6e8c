@@ -1,0 +1,19 @@
+package cn.hsx.filter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilterChain {
+	
+	List<Filter> filters = new ArrayList<Filter>();
+	
+	public void addFilter(Filter f) {
+		this.filters.add(f);
+	}
+	
+	public String doFitler(String str) {
+		String s = str;
+		for ()
+	}
+
+}

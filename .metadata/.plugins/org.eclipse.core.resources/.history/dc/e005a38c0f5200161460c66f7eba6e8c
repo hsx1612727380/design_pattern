@@ -1,0 +1,9 @@
+package cn.hsx.proxy1;
+
+public interface Moveable {
+	
+	void move();
+	
+	void stop();
+	
+}

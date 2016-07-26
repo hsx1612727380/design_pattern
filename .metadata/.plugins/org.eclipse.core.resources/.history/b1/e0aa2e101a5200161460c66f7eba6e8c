@@ -1,0 +1,19 @@
+package cn.hsx.compile.test;
+
+import java.lang.reflect.Method;
+
+import cn.hsx.proxy1.Moveable;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		
+		Method[] methods = Moveable.class.getMethods();
+		for (int i = 0; i < methods.length; i++) {
+			
+		}
+		
+		
+	}
+
+}

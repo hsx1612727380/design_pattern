@@ -1,0 +1,13 @@
+package cn.hsx.list.iterator;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		LinkedList linkedList = new LinkedList();
+		
+		
+		
+	}
+	
+}

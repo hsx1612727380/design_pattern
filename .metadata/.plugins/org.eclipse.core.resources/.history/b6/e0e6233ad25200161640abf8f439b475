@@ -1,0 +1,14 @@
+package cn.hsx.filter.web;
+
+import cn.hsx.filter.web.Filter;
+
+public class SentitiveFilter implements Filter {
+
+	@Override
+	public void doFilter(Request request, Response response, FilterChain filterChain) {
+		request.requestStr = request.requestStr.replace("敏感", "").replace("没感觉", "有感觉");
+		filterChain.doFilter(request, response, filterChain);
+		response.responseStr += ""
+	}
+
+}

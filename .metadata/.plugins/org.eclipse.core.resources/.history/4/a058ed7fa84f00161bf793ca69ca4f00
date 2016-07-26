@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class AK47 {
+	
+	public void shoot() {
+		
+	}
+
+}

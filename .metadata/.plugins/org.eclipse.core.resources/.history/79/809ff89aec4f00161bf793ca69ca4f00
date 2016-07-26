@@ -1,0 +1,13 @@
+package cn.hsx.collection;
+
+import cn.hsx.iterator.Iterator;
+
+public interface Collection {
+
+	void add(Object object);
+	
+	int size();
+	
+	Iterator iterator()
+	
+}

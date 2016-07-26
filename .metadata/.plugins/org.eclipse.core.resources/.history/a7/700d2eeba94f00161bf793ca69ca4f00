@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class MagicFactory {
+	
+	public Broom createBroom() {
+		return
+	}
+
+}

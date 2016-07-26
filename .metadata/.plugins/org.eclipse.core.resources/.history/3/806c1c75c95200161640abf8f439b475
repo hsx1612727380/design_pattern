@@ -1,0 +1,10 @@
+package cn.hsx;
+
+public class SensitiveFilter implements Filter {
+
+	@Override
+	public String doFilter(String msg) {
+		return msg.replace("敏感", "").replace("没感觉", newChar);
+	}
+
+}

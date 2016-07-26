@@ -1,0 +1,13 @@
+package cn.hsx.proxy1;
+import java.lang.reflect.*
+public class TankTimeProxy1 implements cn.hsx.proxy1.Moveable { 
+	cn.hsx.proxy1.InvocationHandler invocationHandler;
+	public TankTimeProxy1(InvocationHandler invocationHandler) { 
+		this.invocationHandler = invocationHandler;
+	}
+	@Override
+public void move() {
+Method md = cn.hsx.proxy1.Moveable.class.getMethod("move");
+invocationHandler.invoke(this, md);
+	}
+}

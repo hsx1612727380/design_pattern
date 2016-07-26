@@ -1,0 +1,5 @@
+package cn.hsx.filter;
+
+public class FaceFilter implements Filter{
+
+}

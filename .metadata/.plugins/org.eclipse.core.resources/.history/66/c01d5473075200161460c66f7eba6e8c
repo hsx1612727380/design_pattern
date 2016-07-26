@@ -1,0 +1,14 @@
+package cn.com.proxy;
+
+public class Tank3 implements Moveable {
+
+	Tank tank;
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

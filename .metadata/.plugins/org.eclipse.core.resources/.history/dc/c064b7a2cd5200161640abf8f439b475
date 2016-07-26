@@ -1,0 +1,23 @@
+package cn.hsx.filter.web;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.hsx.filter.web.Filter;
+
+public class FilterChain implements Filter {
+	
+	List<Filter> filters = new ArrayList<Filter>();
+
+	public FilterChain addFilter(Filter f) {
+		this.filters.add(f);
+		return
+	}
+	
+	
+	@Override
+	public void doFilter(Request request, Response response) {
+		
+	}
+
+}

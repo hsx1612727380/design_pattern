@@ -1,0 +1,25 @@
+package cn.hsx.abstractfactory;
+
+public class MagicFactory extends AbstractFactory {
+
+	@Override
+	public Vehiche createVehicle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Weapon createWeapon() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Food createFood() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+	
+}

@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public abstract class AbstractFactory {
+	
+	public abstract Vehiche createVehicle();
+	public abstract Weapon createWeapon();
+	public abstract Food
+
+}

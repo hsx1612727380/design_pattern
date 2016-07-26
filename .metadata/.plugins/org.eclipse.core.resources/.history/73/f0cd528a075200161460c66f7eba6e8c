@@ -1,0 +1,16 @@
+package cn.com.proxy;
+
+public class Tank3 implements Moveable {
+
+	Tank tank;
+
+	@Override
+	public void move() {
+		long start = System.currentTimeMillis();
+		tank.move();
+		long end =  System.currentTimeMillis();
+		System.out.println("time " + (end - start));
+	}
+	
+	
+}

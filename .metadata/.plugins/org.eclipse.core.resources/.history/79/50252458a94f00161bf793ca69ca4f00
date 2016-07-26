@@ -1,0 +1,21 @@
+package cn.hsx.abstractfactory;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		/*Car car = new Car();
+		car.run();
+		AK47 ak47 = new AK47();
+		ak47.shoot();
+		Apple apple= new Apple();
+		apple.printName();*/
+		
+		DefaultFactory factory = new DefaultFactory();
+		Car car = factory.createCar();
+		AK47 ak47
+		
+		
+	}
+	
+}

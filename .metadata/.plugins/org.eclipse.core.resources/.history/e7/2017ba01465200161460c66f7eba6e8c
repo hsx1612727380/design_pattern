@@ -1,0 +1,13 @@
+package cn.hsx.filter;
+
+public class HTMLFilter implements Filter {
+
+	@Override
+	public String doFilter(String msg) {
+		
+		String s = msg.replace('<', '[').replace('>', ']');
+		
+		return s;
+	}
+
+}

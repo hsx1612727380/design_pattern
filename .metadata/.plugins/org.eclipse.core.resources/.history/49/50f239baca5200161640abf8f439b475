@@ -1,0 +1,11 @@
+package cn.hsx.filter;
+
+public class FilterChain2 implements Filter {
+
+	@Override
+	public String doFilter(String str) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

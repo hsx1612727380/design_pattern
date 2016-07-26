@@ -1,0 +1,26 @@
+package cn.hsx.test;
+
+import cn.hsx.arr.iterator.ArrayList;
+import cn.hsx.collection.Collection;
+import cn.hsx.iterator.Iterator;
+import cn.hsx.list.iterator.LinkedList;
+
+public class Test {
+	
+public static void main(String[] args) {
+		
+		Collection collection = new LinkedList();
+		for (int i = 0; i < 15; i++) {
+			collection.add(i);
+		}
+		System.out.println(collection);
+		System.out.println(collection.size());
+		Iterator iterator = collection.iterator();
+		while (iterator.hasNext()) {
+			Object object = iterator.next();
+			Integer integer = (Integer) object;
+			System.out.println(object);
+		}
+	}
+
+}

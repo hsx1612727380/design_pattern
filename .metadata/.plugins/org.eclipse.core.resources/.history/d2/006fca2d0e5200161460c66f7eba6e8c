@@ -1,0 +1,13 @@
+package cn.hsx.proxy1;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		
+		Moveable moveable = new TankLogProxy(new TimeProxy(new Tank()));
+		moveable.move();
+		
+		
+	}
+
+}

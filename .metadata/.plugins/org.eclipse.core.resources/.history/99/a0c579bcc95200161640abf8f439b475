@@ -1,0 +1,15 @@
+package cn.hsx;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilterChain {
+	
+	List<Filter> filters = new ArrayList<Filter>();
+	
+	public FilterChain addFilter(Filter f) {
+		this.filters.add(f);
+		return this;
+	}
+
+}

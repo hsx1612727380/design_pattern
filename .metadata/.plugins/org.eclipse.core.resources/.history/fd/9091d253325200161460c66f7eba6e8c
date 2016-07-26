@@ -1,0 +1,7 @@
+package cn.hsx.proxy1;
+
+public interface InvocationHandler {
+	
+	public void 
+
+}

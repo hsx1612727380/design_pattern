@@ -1,0 +1,18 @@
+package cn.hsx.list.iterator;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		LinkedList linkedList = new LinkedList();
+		for (int i = 0; i < 15; i++) {
+			linkedList.add(new Object());
+		}
+		System.out.println(linkedList);
+		System.out.println(linkedList.size());
+		for (int i = 0; i < linkedList.size(); i++) {
+			System.out.println();
+		}
+	}
+
+}

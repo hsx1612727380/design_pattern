@@ -1,0 +1,29 @@
+package cn.hsx.state;
+
+public class MM {
+	
+	private String name;
+	
+	private MMState mmState = new MMUnHappyState();
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void smile() {
+		
+	}
+	
+	public void cry() {
+		
+	}
+	
+	public void say() {
+		
+	}
+	
+}

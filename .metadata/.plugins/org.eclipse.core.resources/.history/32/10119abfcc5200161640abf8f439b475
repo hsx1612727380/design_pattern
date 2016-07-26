@@ -1,0 +1,11 @@
+package cn.hsx.filter.web;
+
+public class Response {
+
+	String responseStr;
+	
+	public String getResponseStr() {
+		return responseStr;
+	}
+	
+}

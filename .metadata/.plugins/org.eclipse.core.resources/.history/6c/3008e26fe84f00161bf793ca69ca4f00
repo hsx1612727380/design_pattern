@@ -1,0 +1,37 @@
+package cn.hsx.list.iterator;
+
+public class LinkedList {
+	
+	Node head = null;
+	Node tail = null;
+	int size = 0;
+
+	public void add(Object object) {
+		Node node = new Node(object, null);
+		if (head == null) {
+			head = node;
+			tail = node;
+		}
+		tail.setNext(node);
+		tail = node;
+		size++;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public Object get(int index) {
+		if (head == null) {
+			return null;
+		}
+		if (index == 1) {
+			return head;
+		}
+		Node node = null;
+		for (int i = 1; i < index; i++) {
+			
+		}
+	}
+	
+}

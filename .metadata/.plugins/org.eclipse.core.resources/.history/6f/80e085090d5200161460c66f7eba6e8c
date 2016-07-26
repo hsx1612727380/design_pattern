@@ -1,0 +1,9 @@
+package cn.com.proxy;
+
+public interface Moveable {
+	
+	void move();
+	
+	void stop()
+
+}

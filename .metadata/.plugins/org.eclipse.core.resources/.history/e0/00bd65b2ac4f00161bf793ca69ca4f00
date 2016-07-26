@@ -1,0 +1,22 @@
+package cn.hsx.abstractfactory;
+
+public class DefaultFactory extends AbstractFactory {
+
+	@Override
+	public Vehiche createVehicle() {
+		return new Car();
+	}
+
+	@Override
+	public Weapon createWeapon() {
+		return new AK47();
+	}
+
+	@Override
+	public Food createFood() {
+		return null;
+	}
+	
+	
+
+}

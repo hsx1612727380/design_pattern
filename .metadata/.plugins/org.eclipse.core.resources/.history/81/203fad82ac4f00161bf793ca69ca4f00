@@ -1,0 +1,41 @@
+package cn.hsx.abstractfactory;
+
+public class DefaultFactory extends AbstractFactory {
+	
+	public Car createCar() {
+		return new Car();
+	}
+	
+	public AK47 createAK47() {
+		return new AK47();
+	}
+	
+	public Apple createApple() {
+		return new Apple();
+	}
+
+	@Override
+	public Vehiche createVehicle() {
+		return new Vehiche() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+	}
+
+	@Override
+	public Weapon createWeapon() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Food createFood() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+package cn.hsx.filter.web;
+
+public class Request {
+
+	String requestStr
+	
+	
+}

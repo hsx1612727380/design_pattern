@@ -1,0 +1,9 @@
+package cn.hsx.bridge;
+
+public class WarmGift extends Gift {
+
+	public WarmGift(WarmGift impl) {
+		this.impl = impl;
+	}
+	
+}

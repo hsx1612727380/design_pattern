@@ -1,0 +1,7 @@
+package cn.hsx.strategy;
+
+public class Comparator {
+	
+	int compare(Object object1, Object object2)
+
+}

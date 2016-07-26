@@ -1,0 +1,26 @@
+package cn.hsx.filter;
+
+public class MsgProcessor {
+	
+	private String msg;
+	
+	public String getMsg() {
+		return msg;
+	}
+	
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	
+	public String process() {
+		
+		// process the html tag
+		String s = msg.replace('<', '[').replace('>', ']');
+		
+		// process the sensetive words
+		s = s.replace("被就业", "就业").replace("没感觉", "有感觉");
+		
+		return s;
+	}
+
+}

@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class Apple {
+	
+	public void printName() {
+		System.out.println();
+	}
+
+}

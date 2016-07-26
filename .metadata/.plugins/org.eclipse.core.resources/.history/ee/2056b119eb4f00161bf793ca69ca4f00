@@ -1,0 +1,9 @@
+package cn.hsx.collection;
+
+public interface Collection {
+
+	void add();
+	
+	
+	
+}

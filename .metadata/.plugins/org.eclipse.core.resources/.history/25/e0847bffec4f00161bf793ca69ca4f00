@@ -1,0 +1,28 @@
+package cn.hsx.list.iterator;
+
+import cn.hsx.collection.Collection;
+import cn.hsx.iterator.Iterator;
+
+public class LinkedList implements Collection  {
+	
+	Node head = null;
+	Node tail = null;
+	int size = 0;
+
+	@Override
+	public void add(Object object) {
+		Node node = new Node(object, null);
+		if (head == null) {
+			head = node;
+			tail = node;
+		}
+		tail.setNext(node);
+		tail = node;
+		size++;
+	}
+	
+	public int size() {
+		return size;
+	}
+
+}

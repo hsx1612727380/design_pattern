@@ -1,0 +1,12 @@
+package cn.hsx.proxy1;
+
+import java.lang.reflect.Method;
+
+public class TimeHandler implements InvocationHandler {
+
+	@Override
+	public void invoke(Method method) {
+		
+	}
+	
+}

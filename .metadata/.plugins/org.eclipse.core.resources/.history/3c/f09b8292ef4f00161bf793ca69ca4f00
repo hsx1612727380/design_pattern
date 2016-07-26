@@ -1,0 +1,59 @@
+package cn.hsx.list.iterator;
+
+import cn.hsx.collection.Collection;
+import cn.hsx.iterator.Iterator;
+
+public class LinkedList implements Collection  {
+	
+	Node head = null;
+	Node tail = null;
+	int size = 0;
+
+	@Override
+	public void add(Object object) {
+		Node node = new Node(object, null);
+		if (head == null) {
+			head = node;
+			tail = node;
+		}
+		tail.setNext(node);
+		tail = node;
+		size++;
+	}
+	
+	@Override
+	public int size() {
+		return size;
+	}
+
+	@Override
+	public Iterator iterator() {
+		return new LinkedListIterator();
+	}
+	
+	private class LinkedListIterator implements Iterator  {
+		
+		private int currentIndex = 0;
+
+		@Override
+		public Object next() {
+			if (head != null) {
+				return head;
+			}
+			Node node = head.getNext()
+			return head.getNext();
+		}
+
+		@Override
+		public boolean hasNext() {
+			if (head == null) {
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+		
+	}
+
+}

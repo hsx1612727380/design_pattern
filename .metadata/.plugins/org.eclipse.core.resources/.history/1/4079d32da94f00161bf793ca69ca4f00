@@ -1,0 +1,13 @@
+package cn.hsx.abstractfactory;
+
+public class DefaultFactory {
+	
+	public Car createCar() {
+		return new Car();
+	}
+	
+	public AK47 createAK47() {
+		
+	}
+
+}

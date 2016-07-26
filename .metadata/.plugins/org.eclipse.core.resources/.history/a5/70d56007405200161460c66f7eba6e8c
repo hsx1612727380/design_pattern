@@ -1,0 +1,9 @@
+package cn.hsx.state;
+
+public class MM {
+	
+	private String name;
+	
+	
+
+}

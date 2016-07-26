@@ -1,0 +1,15 @@
+package cn.hsx.proxy1;
+
+public class Client {
+	
+	public static void main(String[] args) throws Exception {
+		
+		
+		
+		Tank tank = new Tank();
+		Moveable moveable = (Moveable) Proxy.newProxyInstance(Moveable.class, TimeHandler);
+		moveable.move();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package cn.hsx;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String msg = "Hello World <script> 大家好！ 敏感:)吗？ 网络上课没感觉";
+		
+		FilterChain filterChain = new FilterChain();
+		filterChain.addFilter(new HtmlFilter()).addFilter(new SensitiveFilter());
+		
+		
+		
+		
+	}
+
+}

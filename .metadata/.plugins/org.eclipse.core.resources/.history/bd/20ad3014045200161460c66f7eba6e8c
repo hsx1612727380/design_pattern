@@ -1,0 +1,18 @@
+package cn.hsx.generic.iterator;
+
+public class GenericArrayList<E> {
+	
+	Object[] objects = new Object[10];
+	int index = 0;
+	
+	public void add(E o) {
+		if (index == objects.length) {
+			
+		}
+	}
+	
+	public int size() {
+		return index;
+	}
+
+}

@@ -1,0 +1,14 @@
+package cn.hsx.proxy1;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		
+		Tank tank = new Tank();
+		TimeProxy timeProxy = (TimeProxy) Proxy.newProxyInstance();
+		Moveable moveable = timeProxy;
+		
+		
+	}
+
+}

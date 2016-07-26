@@ -1,0 +1,28 @@
+package cn.hsx.filter;
+
+public class MsgProcessor {
+	
+	private String msg;
+	
+	Filter[] filters = {new HTMLFilter(), new SensitiveFilter()};
+	
+	public String getMsg() {
+		return msg;
+	}
+	
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	
+	public String process() {
+		
+		// process the html tag
+		// String s = new HTMLFilter().doFilter(msg);
+		
+		// process the sensetive words
+		// s = new SensitiveFilter().doFilter(msg);
+		
+		return s;
+	}
+
+}

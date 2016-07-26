@@ -1,0 +1,15 @@
+package cn.hsx.factory;
+
+public class CarFactory extends VehicleFactory {
+	
+	/*public Car createCar() {
+		return new Car();
+	}*/
+
+	@Override
+	Moveable create() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

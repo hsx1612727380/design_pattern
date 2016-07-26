@@ -1,0 +1,10 @@
+package cn.hsx.abstractfactory;
+
+public class WiteApple extends Food {
+
+	@Override
+	public void printName() {
+		System.out.println("");
+	}
+
+}

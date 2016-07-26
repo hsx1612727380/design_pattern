@@ -1,0 +1,19 @@
+package cn.hsx.filter.web;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String msg = "Hello World <script> :) 敏感  网络上课没感觉";
+		Request request = new Request();
+		request.setRequestStr(msg);
+		Response response = new Response();
+		response.setResponseStr("response");
+		FilterChain filterChain = new FilterChain();
+		filterChain.addFilter(new HTMLFilter()).addFilter(new SentitiveFilter());
+		filterChain.doFilter(request, response);
+		System.out.println(request.getRequestStr());
+		System.out.println(request.getRrsp);
+	}
+
+}

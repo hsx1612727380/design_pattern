@@ -1,0 +1,8 @@
+package cn.com.proxy;
+
+public class Tank3 implements Moveable {
+
+	Tank tank;
+	
+	
+}

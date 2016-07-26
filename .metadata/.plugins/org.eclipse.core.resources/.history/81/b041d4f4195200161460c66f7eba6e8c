@@ -1,0 +1,14 @@
+package cn.hsx.compile.test;
+
+import java.lang.reflect.Method;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		
+		Method
+		
+		
+	}
+
+}

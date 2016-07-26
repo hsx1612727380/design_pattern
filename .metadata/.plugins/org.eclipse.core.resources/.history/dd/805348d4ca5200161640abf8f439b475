@@ -1,0 +1,16 @@
+package cn.hsx.filter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilterChain2 implements Filter {
+	
+	List<Filter> filters = new ArrayList<>()
+
+	@Override
+	public String doFilter(String str) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class DefaultFactory {
+	
+	public Car createCar() {
+		
+	}
+
+}

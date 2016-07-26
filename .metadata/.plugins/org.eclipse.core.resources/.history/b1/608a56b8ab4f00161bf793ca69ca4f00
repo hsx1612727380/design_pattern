@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class MagicStick extends Weapon {
+	
+	public void hit() {
+		System.out.println("使用魔法棒打人啦..........");
+	}
+
+}

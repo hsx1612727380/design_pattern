@@ -1,0 +1,10 @@
+package cn.hsx;
+
+public class SensitiveFilter implements Filter {
+
+	@Override
+	public String doFilter(String msg) {
+		return null;
+	}
+
+}

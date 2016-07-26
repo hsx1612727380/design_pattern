@@ -1,0 +1,9 @@
+package cn.hsx.abstractfactory;
+
+public class Broom {
+	
+	public void sweep() {
+		System.out.println("打扫卫生................");
+	}
+
+}

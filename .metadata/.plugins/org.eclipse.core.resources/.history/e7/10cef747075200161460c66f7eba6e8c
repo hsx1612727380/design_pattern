@@ -1,0 +1,10 @@
+package cn.com.proxy;
+
+public class Tank2 extends Tank {
+
+	@Override
+	public void move() {
+		super.move();
+	}
+	
+}

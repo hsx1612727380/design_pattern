@@ -1,0 +1,11 @@
+package cn.hsx.strategy;
+
+public class Cat {
+
+	private String name;
+	private int height;
+	private int age;
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package cn.hsx;
+
+public class HtmlFilter implements Filter {
+
+	@Override
+	public String doFilter(String msg) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

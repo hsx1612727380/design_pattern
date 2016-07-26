@@ -1,0 +1,12 @@
+package cn.hsx.proxy1;
+public class TankTimeProxy1 implements Moveable { 
+Moveable tank;
+public TankTimeProxy1(Moveable tank) { 
+this.tank = tank;
+}
+@Override
+public void move() {
+long start = System.currentTimeMillis();
+tank.move();long end =  System.currentTimeMillis(); 
+System.out.println("move time " + (end - start));}
+}

@@ -1,0 +1,38 @@
+package cn.hsx.strategy;
+
+public class DataSort {
+	
+	public static void sort(int[] a) {
+		for (int i = 0; i < a.length; i++) {
+			for (int j = i; j < a.length; j++) {
+				if (a[i] > a[j]) {
+					swap(a, i, j);
+				}
+			}
+		}
+	}
+	
+	public static void p(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+	
+	private static void swap(int[] a, int x, int y) {
+		int tmp = a[x];
+		a[x] = a[y];
+		a[y] = tmp;
+	}
+	
+	
+	public static void sortCat(Cat[] cats) {
+		for (int i = 0; i < cats.length; i++) {
+			for (int j = i; j < cats.length; j++) {
+				if (cats[i].getAge() > cats[j].getAge()) {
+					swapSort(cats, int)
+				}
+			}
+		}
+	}
+
+}

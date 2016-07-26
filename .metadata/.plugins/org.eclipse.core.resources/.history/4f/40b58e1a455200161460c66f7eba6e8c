@@ -1,0 +1,7 @@
+package cn.hsx.filter;
+
+public interface Filter {
+	
+	
+
+}

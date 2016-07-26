@@ -1,0 +1,17 @@
+package cn.hsx.strategy;
+
+public class DataSort {
+	
+	public static int[] sort(int[] a) {
+		
+		for (int i = 0; i < a.length, i++) {
+			
+		}
+		
+		
+		
+		return null;
+	}
+	
+
+}

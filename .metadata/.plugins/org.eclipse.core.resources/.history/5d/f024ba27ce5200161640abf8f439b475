@@ -1,0 +1,6 @@
+package cn.hsx.filter.web;
+
+import cn.hsx.filter.web.Filter;
+public class SentitiveeFilter implements Filter {
+
+}

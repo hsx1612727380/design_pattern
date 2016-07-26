@@ -1,0 +1,53 @@
+package cn.hsx.arr.iterator;
+
+import cn.hsx.collection.Collection;
+import cn.hsx.iterator.Iterator;
+
+public class ArrayList implements Collection {
+	
+	Object[] objects = new Object[10];
+	int index = 0;
+	
+	@Override
+	public void add(Object object) {
+		if (index == objects.length) {
+			Object[] newObjects = new Object[objects.length * 2];
+			System.arraycopy(objects, 0, newObjects, 0, objects.length);
+			objects = newObjects;
+		}
+		objects[index] = object;
+		index++;
+	}
+	
+	@Override
+	public int size() {
+		return index;
+	}
+
+	@Override
+	public Iterator iterator() {
+		return null;
+	}
+	
+	private class ArrayListIterator implements Iterator  {
+		
+		private int currentIndex
+
+		@Override
+		public Object next() {
+			return ;
+		}
+
+		@Override
+		public boolean hasNext() {
+			if (objects[index] == null) {
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+		
+	}
+
+}

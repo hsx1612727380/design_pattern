@@ -1,0 +1,19 @@
+package cn.hsx.filter;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String msg = "Hello :),<script>敏感：被就业，网络上课没感觉";
+		
+		MsgProcessor mp = new MsgProcessor();
+		mp.setMsg(msg);
+		FilterChain filterChain = new FilterChain();
+		filterChain.addFilter(new HTMLFilter()).addFilter(new SensitiveFilter());
+		FilterChain2
+		mp.setFilterChain(filterChain);
+		String result = mp.process();
+		System.out.println("result === === " + result);
+	}
+
+}

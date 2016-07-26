@@ -1,0 +1,11 @@
+package cn.hsx.generic.iterator;
+
+public class GenericArrayList<E> {
+	
+	Object[] objects = new 
+	
+	public void add(E o) {
+		
+	}
+
+}

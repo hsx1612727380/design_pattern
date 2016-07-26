@@ -1,0 +1,30 @@
+package cn.hsx.strategy2;
+
+import java.lang.Comparable;
+import java.util.Comparator;
+
+public class DataSort {
+	
+	public static void sort(Object[] o) {
+		for (int i = 0; i < o.length; i++) {
+			for (int j = i; j < o.length; j++) {
+				if (((Comparable) o[i]).compareTo((Comparable) o[j]) > 0) {
+					swap(o, i, j);
+				}
+			}
+		}
+	}
+	
+	public static void p(Object[] o) {
+		for (int i = 0; i < o.length; i++) {
+			System.out.println(o[i]);
+		}
+	}
+	
+	private static void swap(Object[] o, int x, int y) {
+		Object tmp = o[x];
+		o[x] = o[y];
+		o[y] = tmp;
+	}
+
+}

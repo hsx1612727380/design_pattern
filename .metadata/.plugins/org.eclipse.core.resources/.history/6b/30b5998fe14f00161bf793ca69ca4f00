@@ -1,0 +1,17 @@
+package cn.hsx.iterator;
+
+import java.security.AlgorithmConstraints;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		ArrayList arrayList = new ArrayList();
+		for (int i = 0; i < 15; i++) {
+			AlgorithmConstraints
+		}
+		
+		
+	}
+
+}
